@@ -1,0 +1,90 @@
+.container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchdiv{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    outline: none;
+    border: none;
+    width: 70%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: transparent;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+.input::placeholder{
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.noPic{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+.picContain{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.pics{
+    width: 24%;
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.nobtn{
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 2px;
+    background-color: lightgray;
+    cursor:no-drop;
+}
+.page{
+    font-size: 1rem;
+    font-weight: 600;
+}
